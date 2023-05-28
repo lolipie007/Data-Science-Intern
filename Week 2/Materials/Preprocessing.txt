@@ -1,0 +1,110 @@
+Data Preprocessing:
+Tranform raw data into useful and efficient format
+
+Major Task in data Preprocessing
+1. data Integration
+2. Data Cleaning
+3. Data Transformation
+
+Data Cleaning
+1. Missing values:
+	- Delete the row/cell
+	-Imputation
+2. handling Noise	
+3. handling outliers
+4. Dealing with Duplicate
+
+Data Transformation Techniques:
+Two types of Categorical Features:
+- Nominal
+- Ordinal
+
+Techniques to Handle Categorical Data
+	1. Map()
+	2 Label Encoding:
+	We have to import LabelEncoderClass from scikit learn library
+	3 One Hot Encoding
+ 
+Dealing with imbalance Data
+1 Undersampling
+2 Oversampling 
+	-SMOTE- Sythetic Minority Oversampling technique
+
+Train Test Split:
+Evaluating the performance of Machine Learning algorithm
+
+Training Dataset- - fit the model/train the model 
+
+Test Dataset- Used to evaluate the fitted model
+
+x_train- Feature for training the model
+y_train- Dependent Variable for training data
+x_test- feature for test data
+y_test- Dependent variable for testing data
+
+for splitting the dataset we use train_test_split() from sklearn.model_selection
+s_train,y_train,x_test,y_test=train_test_split(x,y, test_size=0.3, random_state=42)
+
+Machine Learning:
+Classification of Machine Learning
+1. Supervised  Learning
+	1.Regression (target variable is Continous)
+	2. Classification(Target Variable is Categorical)
+
+2. Unsupervised Learning(group the dataset according to similarities, Patter and differenced)
+	1.Clustering
+	2.Association
+
+3. Reinforcement Learning
+
+Machine Learning Life Cycle:
+1. Gathering Data
+2. Data Preparation
+3. Data Preprocessing
+4. Analyse the data
+5. Train the model
+6.Test the model
+7.Evaluate the model
+8 Deploy the saved Model
+
+Regression Analysis:
+ Statistical method to analyse the relationship between independent variable and
+dependent variable.
+Regression is used for prediction of comntinous variable/
+
+Uses of Regression:
+
+Types:
+Linear regression
+Multilinear Regression
+Polynomial Rgression
+
+Y=mx+c
+y=dependent variable
+x=independent variable
+m=slope
+c=intercept
+whenever we get the minimum error between actual value and predicted values 
+we consider it as best fit line.
+y=mx+c
+
+Multi Linear Regression
+y=a0+ a1x1+a2x2+a3x3+....+anxn
+
+Polynomial Regression
+
+x2====x1^2
+x3------x1^3
+x4-----x4^4
+
+y=a0+a1x1+a2x1^2+.....+anx1^n
+
+
+
+
+
+
+
+
+
+	

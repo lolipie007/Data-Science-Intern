@@ -1,0 +1,73 @@
+Types of Descriptive Statistics:
+1. Measure of Central Tendency
+	Mean
+	Mode
+	Median
+
+2. Measure of Variability
+	Range
+	Variance
+	Standard Deviation
+
+Data
+ -Categorical
+ -Numerical
+
+Normal Distribution:
+
+Emperical Rule
+68% of data fall in 1st S.D
+95% of data falls in 2nd S.d
+99.7% of data falls in 3rd S.d
+Any point aftre this  3rd sigma is outlier
+
+Distortion
+1.Skewness
+2.Kurtosis
+
+1.Skewness
+	1.Right Skewed
+		Mean>Median>Mode
+	2. Left Skewed
+		Mode>Median>Mean
+		
+	-0.5 to 0.5 ---nearly symmetrical
+	-1 to -0.5
+	      or 	---Slightly Skewed
+	0.5 to 1
+	less than -1 or greater than 1 extremely Skewed
+
+Kurtosis- It measures the peakedness of the probability Distribution
+
+Scaling	
+	1.Normalisation
+		0-1
+		MinMaxScalar() from Scikit Learn
+
+	2. Standardization
+		Mean=0
+		S.D=1
+		-1 to 1
+		StandardScalar() from ScikitLearn
+
+	3. Robust Scalar- It scales down according to InterQuatile Range
+
+Z Score- Indicates how many Standard deviation an element is far from mean
+	Z<0------Element is less than Mean
+	Z=0------Element is equal to Mean
+	Z<0 -----Element is greater than Mean
+Hypothesis
+	Simple
+	Composite
+
+P Value- Smallest level of Significance at which the null hypothesis will be rejected
+	If P value is greater than alpha we do not reject the null hypothsis
+	if p value is smaller than alpha we reject the null hypothesis
+
+
+
+
+
+
+
+
